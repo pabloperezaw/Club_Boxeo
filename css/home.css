@@ -1,5 +1,7 @@
 *{
-    
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body{
@@ -18,11 +20,11 @@ header h1{
     text-align: center;
 }
 
-/*nav{
+nav{
     background-color: #FFD006;
     text-align: center;
 }
-*/
+
 h1{
     color:aliceblue;
     font-family: Verdana, sans-serif;
@@ -67,15 +69,16 @@ footer{
 }
 
 .menu{
-    display:inline-flex;
+    display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
+  background-color: #FFD006;
 }
 
-.menu-item{
-    background: #606c38;
+/*.menu-item{
+  background: #606c38;
   padding: 1em 0.5em;
   position: relative;
   border-bottom: 5px solid #dda15e;
@@ -84,12 +87,9 @@ footer{
   min-width: 8em;
   text-align: center;
 }
+*/
 
 li{
-    display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   margin: 0 auto;
   padding: 0.5em 0;
