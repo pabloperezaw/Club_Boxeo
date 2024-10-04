@@ -1,3 +1,7 @@
+*{
+    
+}
+
 body{
     background-color: #000001;
     color: aliceblue;
@@ -14,11 +18,11 @@ header h1{
     text-align: center;
 }
 
-nav{
+/*nav{
     background-color: #FFD006;
     text-align: center;
 }
-
+*/
 h1{
     color:aliceblue;
     font-family: Verdana, sans-serif;
@@ -60,4 +64,34 @@ article{
 footer{
     text-align: right;
     background-color: #3c6000;
+}
+
+.menu{
+    display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.menu-item{
+    background: #606c38;
+  padding: 1em 0.5em;
+  position: relative;
+  border-bottom: 5px solid #dda15e;
+  margin: 1em 0.25em;
+  cursor: pointer;
+  min-width: 8em;
+  text-align: center;
+}
+
+li{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  list-style: none;
 }
