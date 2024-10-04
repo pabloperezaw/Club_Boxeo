@@ -69,7 +69,7 @@ footer{
 }
 
 .menu{
-    display: inline-flex;
+    display:inline-flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -77,17 +77,16 @@ footer{
   background-color: #FFD006;
 }
 
-/*.menu-item{
+.menu-item{
   background: #606c38;
   padding: 1em 0.5em;
   position: relative;
-  border-bottom: 5px solid #dda15e;
   margin: 1em 0.25em;
   cursor: pointer;
   min-width: 8em;
   text-align: center;
 }
-*/
+
 
 li{
   width: 100%;
