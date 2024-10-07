@@ -25,37 +25,14 @@ h1{
     font-family: Verdana, sans-serif;
     font-size: 56px;
 }
-h2{
+ol{
     color:aliceblue;
-    text-align: center;
     font-size: 26px;
+    padding: 3px;
 }
 
 section{
     background-color: #ce2800;
-}
-
-div{
-    background-color: #5fa8dc;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 16px;
-}
-
-.nm{
-    text-align: center;
-}
-
-article{
-    text-align: center;
-}
-
-.image-container {
-    display: grid;
-    place-items: center; /* Centra horizontal y verticalmente */
-    height: 300px;
-    border: 1px solid #000;
 }
 
 footer{
