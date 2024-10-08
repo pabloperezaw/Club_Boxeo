@@ -8,6 +8,10 @@ body{
     background-color: #000001;
     color: aliceblue;
     font-family: Verdana, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 header h1{
@@ -77,6 +81,7 @@ ul li ul {
 
 ol{
     list-style-type: none;
+    text-align: center;
 }
 
 ul li:hover ul {
