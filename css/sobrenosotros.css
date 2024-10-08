@@ -8,6 +8,10 @@ body{
     background-color: #000001;
     color: aliceblue;
     font-family: Verdana, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 header h1{
@@ -37,7 +41,6 @@ section{
 }
 
 p{
-    background-color: #5fa8dc;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -55,11 +58,11 @@ ul {
     padding: 0;
     background-color: #FFD006;
     display: flex;
-    justify-content: center; /* Centra el menú */
+    justify-content: center; /* Esta linea va a centrar el menú */
 }
 
 ul li {
-    position: relative; /* Necesario para los menús desplegables */
+    position: relative; /* Esta linea es necesaria para los menús desplegables */
 }
 
 ul li a {
@@ -77,7 +80,7 @@ ul li a:hover {
 ul li ul {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #FFD006;
     top: 100%; /* Despliega justo debajo del enlace principal */
     left: 0;
     z-index: 1;
@@ -97,4 +100,10 @@ ul li ul li {
 
 ul li ul li a {
     padding: 12px 16px;
+}
+
+article{
+    background-color: #5fa8dc;
+    padding: 1%;
+    margin: 1%;
 }
