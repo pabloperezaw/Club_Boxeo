@@ -14,9 +14,12 @@ body{
     margin-right: 2%;
 }
 
-header h1{
-    background-color: #E55100;
-    text-align: center;
+header{
+    background-image: url('../homeImg/banner.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 nav{
