@@ -14,8 +14,15 @@ body{
     margin-right: 2%;
 }
 
+header{
+    background-image: url('../homeImg/banner.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 header h1{
-    background-color: #E55100;
     text-align: center;
 }
 
@@ -43,7 +50,7 @@ footer{
 
 .grid-container{
     display: grid;
-    column-gap: 5%;
+    column-gap: 15px;
     grid-template-columns: auto auto auto;
     margin-bottom: 1%;
 }
@@ -53,8 +60,8 @@ footer{
     background-color: #5fa8dc;
     margin-bottom: 5%;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
 }
 
 figcaption{
