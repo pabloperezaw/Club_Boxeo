@@ -34,7 +34,11 @@ ol{
     font-size: 26px;
     padding: 3px;
 }
-
+ol li{
+    border: solid #3c6000 ;
+    background-color: #5fa8dc;
+    margin: 1%;
+}
 section{
     background-color: #ce2800;
     margin-top: 1%;
