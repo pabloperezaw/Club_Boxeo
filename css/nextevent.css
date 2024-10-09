@@ -22,6 +22,10 @@ header{
     color: white;
 }
 
+header h1{
+    text-align: center;
+}
+
 nav{
     background-color: #FFD006;
     text-align: center;

@@ -115,3 +115,8 @@ ul li ul li {
 ul li ul li a {
     padding: 12px 16px;
 }
+
+.win{
+    color: greenyellow;
+    font-size: 20px;
+}
