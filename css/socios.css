@@ -91,6 +91,18 @@ ol{
     list-style-type: none;
     text-align: center;
 }
+ol li{
+    border: solid #3c6000 ;
+    background-color: #5fa8dc;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 1%;
+    color: #000049;
+}
+
+ol li:hover{
+    transform: scale(1.1);
+}
 
 ul li:hover ul {
     display: block;
