@@ -53,8 +53,8 @@ footer{
 
 .grid-container{
     display: grid;
-    column-gap: 15px;
-    grid-template-columns: 420px 420px 420px;
+    column-gap: 50px;
+    grid-template-columns: 420px 420px 420px 420px;
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -64,8 +64,8 @@ footer{
     background-color: #5fa8dc;
     margin-bottom: 5%;
     text-align: center;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 figcaption{
