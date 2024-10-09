@@ -14,8 +14,15 @@ body{
     margin-right: 2%;
 }
 
+header{
+    background-image: url('../homeImg/banner.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 header h1{
-    background-color: #E55100;
     text-align: center;
 }
 
@@ -38,6 +45,8 @@ h2{
 section{
     background-color: #ce2800;
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 p{
